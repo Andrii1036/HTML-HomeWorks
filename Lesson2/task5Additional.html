@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task 5</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .mainContainer{
+            margin:150px 0 0 50px;
+        }
+        .player{
+            margin: 20px 0;
+            font-size: 40px;
+        }
+        .cards{
+            display: flex;
+
+        }
+        .card{
+            padding: 10px 15px;
+            background-color: #d9c3c3;
+            margin-right: 10px;
+            font-size: 60px;
+            cursor: pointer;
+            transition: 300ms;
+        }
+        .fontRed{
+            color: #c71313;
+        }
+        .card:hover{
+            background-color: #a48282;
+            transition: 300ms;
+        }
+    </style>
+<!--    Червы черные - &hearts;-->
+<!--    Трефы черный - &clubs;-->
+<!--    Бубны черные - &diams;-->
+<!--    Пики черные - &spades;-->
+</head>
+<body>
+<div class="mainContainer">
+    <p class="player">Player 1:</p>
+    <div class="cards">
+        <div class="card">
+            <p>2&clubs;</p>
+        </div>
+        <div class="card fontRed">
+            <p>9&hearts;</p>
+        </div>
+        <div class="card fontRed">
+            <p>6&hearts;</p>
+        </div>
+        <div class="card fontRed">
+            <p>A&diams;</p>
+        </div>
+        <div class="card">
+            <p>Q&spades;</p>
+        </div>
+        <div class="card">
+            <p>J&clubs;</p>
+        </div>
+
+    </div>
+    <p class="player">Player 2:</p>
+    <div class="cards">
+            <div class="card fontRed">
+                <p>3&hearts;</p>
+            </div>
+            <div class="card">
+                <p>A&clubs;</p>
+            </div>
+            <div class="card">
+                <p>10&clubs;</p>
+            </div>
+            <div class="card fontRed">
+                <p>K&diams;</p>
+            </div>
+            <div class="card">
+                <p>8&spades;</p>
+            </div>
+            <div class="card fontRed">
+                <p>3&hearts;</p>
+            </div>
+    </div>
+</div>
+
+</body>
+</html>
