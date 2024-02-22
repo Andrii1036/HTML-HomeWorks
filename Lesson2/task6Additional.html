@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task 6</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .mainContainer{
+            padding: 30px 50px;
+            font-family: "Ubuntu", sans-serif;
+            background-color: #d9c3c3;
+            height: 100vh;
+        }
+        .cardsContainer{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .card{
+            width: 18%;
+            min-width: 150px;
+            height: 170px;
+            margin-bottom: 30px;
+            box-shadow: 0px 8px 14px 0px rgba(0,0,0,0.79);
+            -webkit-box-shadow: 0px 8px 14px 0px rgba(0,0,0,0.79);
+            -moz-box-shadow: 0px 8px 14px 0px rgba(0,0,0,0.79);
+            cursor: pointer;
+            transition: 200ms;
+            color: white;
+            font-size: 40px;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            justify-content: center;
+            font-weight: 500;
+            font-style: normal;
+            line-height: 50px;
+        }
+        .card:hover{
+            box-shadow: 0px 8px 52px 0px rgba(0,0,0,1);
+            -webkit-box-shadow: 0px 8px 52px 0px rgba(0,0,0,1);
+            -moz-box-shadow: 0px 8px 52px 0px rgba(0,0,0,1);
+            transition: 200ms;
+        }
+        h1{
+            text-align: center;
+            margin-bottom: 65px;
+            text-shadow: 3px 3px 7px rgba(0,0,0,0.42);
+            font-weight: 700;
+            font-style: normal;
+            font-size: 75px;
+        }
+        .black{
+            background-color: black;
+        }
+        .red{
+            background-color: red;
+            border: 2px solid darkred;
+        }
+        .green{
+            background-color: green;
+            border: 2px solid #015601;
+        }
+        .blue{
+            background-color: blue;
+            border: 2px solid #030393;
+
+        }
+        .fuchsia{
+            background-color: fuchsia;
+            border: 2px solid #6c046c;
+        }
+        .yellow{
+            background-color: yellow;
+            border: 2px solid #5b5b02;
+            color: black;
+        }
+        .purple{
+            background-color: purple;
+            border: 2px solid #480148;
+        }
+        .marron{
+            background-color: maroon;
+            border: 2px solid #560404;
+        }
+        .olive{
+            background-color: olive;
+            border: 2px solid #3d3d03;
+        }
+        .white{
+            background-color: white;
+            border: 2px solid black;
+            color: black;
+        }
+        p{
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+<div class="mainContainer">
+    <h1>HTML Colors</h1>
+    <div class="cardsContainer">
+        <div class="card black">
+            <h5>Black</h5>
+            <p>#000000</p>
+        </div><div class="card red">
+            <h5>Red</h5>
+            <p>#FF0000</p>
+        </div><div class="card green">
+            <h5>Green</h5>
+            <p>#00FF00</p>
+        </div><div class="card blue">
+            <h5>Blue</h5>
+            <p>#0000FF</p>
+        </div><div class="card fuchsia">
+            <h5>Fuchsia</h5>
+            <p>#FF00FF</p>
+        </div><div class="card white">
+            <h5>White</h5>
+            <p>#FFFFFF</p>
+        </div><div class="card yellow">
+            <h5>Yellow</h5>
+            <p>#FFFF00</p>
+        </div><div class="card purple">
+            <h5>Purple</h5>
+            <p>#800080</p>
+        </div><div class="card marron">
+            <h5>Marron</h5>
+            <p>#800000</p>
+        </div><div class="card olive">
+            <h5>Olive</h5>
+            <p>#808000</p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
