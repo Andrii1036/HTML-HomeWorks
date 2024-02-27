@@ -1,0 +1,92 @@
+/*----------------стилізація спільна для всього проекту------------------------*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.flexCC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header, footer {
+    height: 21vh;
+    position: relative;
+}
+
+.arrow {
+    position: absolute;
+    right: 50px;
+    text-decoration: none;
+    color: black;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.arrow:hover {
+    color: #ff1e00;
+}
+
+#model1, #model2, #model3, #model4, #model5 {
+    height: 100vh;
+}
+p {
+    color: #000;
+    font-family: Inter, sans-serif;
+    font-size: 45px;
+}
+
+/*--------------------стилізація для першого макету------------------------------------*/
+
+#model1 main {
+    height: 58vh;
+    display: flex;
+}
+
+#model1 aside {
+    width: 18vw;
+}
+
+#model1 section {
+    width: 64vw;
+}
+
+#model1 section article {
+    height: 50%;
+}
+
+.model1HeaderBg {
+    background: #D9D9D9
+}
+
+.model1NewsBG {
+    background: #817C7C;
+}
+
+.model1SponsorBG {
+    background: #B7AEAE;
+}
+
+.model1Content1Bg {
+    background: #ABA8A8;;
+}
+
+.model1Content2Bg {
+    background: #878484;
+}
+
+.model1FooterBg {
+    background: #BDBDBD;
+}
+
+/*-----------------------------------стилізація для другого макету----------------------------------------------*/
+.model2HeaderBg{
+    background: #8D8484;
+}
