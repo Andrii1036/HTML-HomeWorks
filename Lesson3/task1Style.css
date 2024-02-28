@@ -188,3 +188,27 @@ p {
     color: white;
 }
 /*------------------------------стилізація для четвертого макету---------------------------------------*/
+#model4 p{
+    color: white;
+}
+#model4 main aside{
+    width: 20vw;
+}
+#model4 main section{
+    width: 60vw;
+}
+.model4NewsBg{
+    background: #CCC;
+}
+.model4ContentBg{
+    background: #A74848;
+}
+.model4SpamBg{
+    background: #B7AEAE;
+}
+.model4HeaderBg{
+    background: #927D7D;
+}
+.model4FooterBg{
+    background: #BDBDBD;
+}
