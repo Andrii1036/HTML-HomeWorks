@@ -212,3 +212,28 @@ p {
 .model4FooterBg{
     background: #BDBDBD;
 }
+/*-------------------стилізація пятого макету----------------------------*/
+#model5 main article{
+    width: 20%;
+}
+.model5HeaderBg{
+    background: #D9D9D9;
+}
+.model4FooterBg{
+    background: #BDBDBD;
+}
+.model5Content1Bg{
+    background: #5E5050;
+}
+.model5Content2Bg{
+    background: #817C7C;
+}
+.model5Content3Bg{
+    background: #696464;
+}
+.model5Content4Bg{
+    background: #4E4949;
+}
+.model5Content5Bg{
+    background: #776C6C;
+}
