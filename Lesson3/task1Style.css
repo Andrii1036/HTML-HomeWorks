@@ -21,6 +21,11 @@ header, footer {
     position: relative;
 }
 
+main {
+    height: 58vh;
+    display: flex;
+}
+
 .arrow {
     position: absolute;
     right: 50px;
@@ -37,6 +42,7 @@ header, footer {
 #model1, #model2, #model3, #model4, #model5 {
     height: 100vh;
 }
+
 p {
     color: #000;
     font-family: Inter, sans-serif;
@@ -45,10 +51,6 @@ p {
 
 /*--------------------стилізація для першого макету------------------------------------*/
 
-#model1 main {
-    height: 58vh;
-    display: flex;
-}
 
 #model1 aside {
     width: 18vw;
@@ -87,6 +89,102 @@ p {
 }
 
 /*-----------------------------------стилізація для другого макету----------------------------------------------*/
-.model2HeaderBg{
+
+#model2 section {
+    width: 73vw;
+}
+
+#model2 article p {
+    color: white;
+}
+
+#model2 section article {
+    height: calc(100% / 3);
+}
+
+#model2 aside {
+    width: 27vw;
+}
+
+#model2 aside article {
+    height: 50%;
+}
+
+.model2HeaderBg {
     background: #8D8484;
 }
+
+.model2Content1Bg {
+    background: #776969;
+}
+
+.model2Content2Bg {
+    background: #643030;
+}
+
+.model2Content3Bg {
+    background: #441818;
+}
+
+.model2Spam1Bg {
+    background: #937575;
+}
+
+.model2Spam2Bg {
+    background: #644C4C;
+}
+
+.model2FooterBg {
+    background: #BDBDBD;
+}
+
+/*---------------------------------------стилізація для третього макету---------------------------------*/
+#model3 aside {
+    width: 34vw;
+}
+
+#model3 aside article {
+    height: calc(100% / 3);
+}
+
+#model3 section article {
+    width: 50%;
+}
+
+#model3 section {
+    width: 66vw;
+    display: flex;
+}
+
+.model3News1Bg {
+    background: #D9D9D9;
+}
+
+.model3News2Bg {
+    background: #AA9898;
+}
+
+.model3News3Bg {
+    background: #C5BBBB;
+}
+
+.model3Content1Bg {
+    background: #8A8484;
+}
+
+.model3Content2Bg {
+    background: #C0B3B3;
+}
+
+.model3HeaderBg {
+    background: #9B6F6F;
+}
+
+.model3FooterBg {
+    background: #524B4B;
+}
+
+.model3HeaderBg p, .model3FooterBg p {
+    color: white;
+}
+/*------------------------------стилізація для четвертого макету---------------------------------------*/
