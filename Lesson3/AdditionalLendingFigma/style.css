@@ -1,0 +1,176 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+.limitation {
+    max-width: 1440px;
+    padding: 0 135px;
+    margin: 0 auto;
+}
+
+h3 {
+    color: #BDBDBD;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 64px;
+}
+
+/*------------стилізація голови-----------------*/
+.headerWrapper {
+    background: #FAFAFA;
+    height: 10vh;
+}
+
+header {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    width: 622px;
+    justify-content: space-between;
+    margin-right: 135px;
+}
+
+header ul a {
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+}
+
+header ul a:hover {
+    text-decoration: underline;
+}
+
+/*-----------------стилізація головної сторінки---------------*/
+.homePage {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 90px;
+}
+
+.homePage img {
+    height: 100%;
+    width: 770px;
+}
+
+h1 {
+    color: #BDBDBD;
+    font-size: 64px;
+    font-weight: 300;
+}
+
+h1 span {
+    color: #333;
+    font-weight: 700;
+}
+
+/*----------стилізація блоку "about"---------------*/
+.about {
+    display: flex;
+    padding-top: 90px;
+    justify-content: space-between;
+}
+
+.about img {
+    width: 270px;
+    height: 345px;
+}
+
+.about img:first-child {
+    margin-left: 50px;
+}
+
+.about article {
+    width: 400px;
+    color: #000;
+    font-weight: 300;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 45px;
+}
+
+/*----------------стилізація блоку "main focus----------------"*/
+.mainFocus {
+    margin-top: 180px;
+}
+
+.mainFocusArticleWrapper {
+    display: flex;
+    column-gap: 180px;
+    justify-content: space-between;
+    color: #333;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.mainFocusArticleWrapper article {
+    display: flex;
+    align-items: center;
+}
+
+.mainFocusArticleWrapper article p:first-child {
+    color: #F2F2F2;
+    font-size: 200px;
+    font-weight: 900;
+    line-height: normal;
+}
+/*----------------стилізація длоку "ourProjects"---------------*/
+.ourProjects{
+    margin-top: 50px;
+}
+.ourProjectsImagesWrapper{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+/*-----------------------стилізація Footer---------------------------------*/
+.footerWrapper{
+    background: #2C2C2C;
+    height: 32vh;
+    margin-top: 100px;
+    padding-top: 45px;
+}
+footer{
+    display: flex;
+    height: 100%;
+    align-items: flex-start;
+}
+footer img{
+    margin-right: 75px;
+}
+footer ul{
+    list-style-type: none;
+}
+footer ul li,a{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height :30px;
+    text-decoration: none;
+}
+footer ul a:hover {
+    text-decoration: underline;
+}
+footer ul li:first-child{
+    line-height: normal;
+    margin-bottom: 20px;
+}
