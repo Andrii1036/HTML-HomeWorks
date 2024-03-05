@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Instagram</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
 </head>
 <body>
 <div class="main">
@@ -13,10 +17,11 @@
             <img src="Instagram_logo.svg" alt="instagram logo">
             <form>
                 <label>
-                    <input type="text" name="name" placeholder="Номер телефону, ім'я користувача або ел. пошта">
+                    <input type="text" name="name" placeholder="Номер телефону, ім'я користувача або ел. пошта" required
+                           autofocus>
                 </label>
                 <label>
-                    <input type="password" name="password" placeholder="Пароль">
+                    <input type="password" name="password" placeholder="Пароль" required>
                 </label>
                 <label>
                     <input type="submit" name="submit" value="Увійти" class="formButton">
@@ -35,6 +40,14 @@
         <div class="registrationLink">
             <span>Не маєте облікового запису?</span>
             <a href="#">Зареєструйтеся</a>
+        </div>
+        <div class="loadApp">
+            <p>Завантажити додаток</p>
+            <div class="storages">
+                <a href="#"><img src="googlePlayDownload.png" alt="google play link"></a>
+                <a href="#"><img src="microsoftDownload.png" alt="microsoft store link"></a>
+            </div>
+
         </div>
     </section>
 </div>
