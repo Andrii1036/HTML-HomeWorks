@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flexAlignJustifyCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "KoHo", sans-serif;
+    color: black;
+}
+
+.topSection {
+    background-image: url("./images/topSectionBG.png");
+}
+
+.topSectionContent {
+    width: 70vw;
+    height: 40vh;
+    background-color: white;
+}
+
+.topSectionContent img {
+    width: 50%;
+    height: 100%;
+}
+
+.contentText {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    height: 100%;
+    font-weight: 400;
+}
+
+.contentText h3 {
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 45px;
+    margin-top: 50px;
+    font-weight: 400;
+}
+
+.contentText p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+button {
+    width: 27vw;
+    height: 8vh;
+    border-radius: 5px;
+    border: 1px solid rgba(156, 152, 152, 0.10);
+    background: rgba(217, 217, 217, 0.60);
+    box-shadow: 0 4px 4px 0px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 400;
+    color: #6B6666;
+}
+.contentText button{
+    margin-bottom: 84px;
+}
+
+.videoSection {
+    background-image: url("./images/videoBottomSectionsBG.png");
+    flex-direction: column;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.videoSection p:nth-child(2) {
+    text-transform: uppercase;
+}
+
+.videoSection iframe {
+    width: 63vw;
+    height: 54vh;
+    margin-bottom: 100px;
+}
+
+.videoSection p {
+    width: 63vw;
+}
+
+.bottomSection {
+    background-image: url("./images/videoBottomSectionsBG.png");
+    padding: 0 35px;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30vw;
+    height: 71vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 400;
+    background: rgba(83, 83, 83, 0.40);
+    padding: 20px;
+
+}
+.card img{
+    width: 100%;
+    margin-bottom: 32px;
+}
+.card h3{
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.card p:nth-child(3){
+    margin-bottom:60px ;
+}
+.card button{
+    margin-top: 25px;
+}
