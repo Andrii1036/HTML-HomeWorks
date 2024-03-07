@@ -14,10 +14,6 @@
     padding-top: 20px;
 }
 
-footer {
-    height: 13vh;
-}
-
 section {
     width: 380px;
     height: 590px;
@@ -28,6 +24,14 @@ section {
     height: 590px;
     background-image: url("instagramRegistrationBG.png");
     background-position-x: center;
+    position: relative;
+}
+.photoWrapperSecondBG{
+    position: absolute;
+    width: 254px;
+    height: 550px;
+    top: 21px;
+    left: 111px
 }
 
 .registrationWrapper {
@@ -63,10 +67,12 @@ input {
     text-overflow: ellipsis;
     border: 1px solid rgb(219, 219, 219);
 }
-input:focus{
+
+input:focus {
     outline: none;
     border: 1px solid rgb(147, 147, 147);
 }
+
 input::placeholder {
     font-size: 14px;
 }
@@ -78,7 +84,8 @@ input::placeholder {
     border: none;
     color: white;
 }
-.formButton:focus{
+
+.formButton:focus {
     border: none;
 }
 
@@ -162,5 +169,42 @@ input::placeholder {
 .loadApp img {
     height: 40px;
 }
+
+footer {
+    height: 13vh;
+    max-width: 1512px;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+}
+footer ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #737373;
+}
+.underline:hover{
+    text-decoration: underline;
+}
+.changeLanguage,select{
+    font-size: 12px;
+    color: #737373;
+}
+.changeLanguage{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+select{
+    border: none;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
 
 
