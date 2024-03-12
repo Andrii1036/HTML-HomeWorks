@@ -6,25 +6,43 @@
 
 .main {
     padding: 35px;
-    font-family: "Reenie Beanie", cursive;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 40px;
-    background: url("task2BG.jpg") no-repeat center;
+    font-size: 30px;
 }
 
 ul {
     padding-left: 50px;
     margin-bottom: 40px;
-    /*list-style: url("");*/
+    list-style: decimal-leading-zero;
 }
 
 h2 {
     margin-bottom: 15px;
 }
-.list1 ul>li:nth-child(even){
+
+p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: gray;
+    margin-left: 50px;
+}
+
+.list1 ul > li:nth-child(even) {
     color: pink;
 }
-.list2 ul>li:nth-child(odd){
-font-size: 22px;
+
+.list2 ul > li:nth-child(odd) {
+    font-size: 22px;
+}
+
+.list3 ul > li:nth-child(2n+4)::after {
+    content: "!";
+}
+
+.list4 ul > li:last-child {
+    color: violet;
+}
+
+.list5 ul > li::first-letter {
+    color: red;
+    font-size: 50px; /* в завданні вказано поставити 30 px, але я поставив 50 так як 30px в мене стоїть розмір усього шрифту */
 }
