@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 40px;
+}
+
+.limitingBlock {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.background {
+    background-color: rgb(217, 217, 217);
+}
+
+.border {
+    border-radius: 10px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    height: calc(15vh - 20px) ;
+    margin-bottom: 20px;
+}
+
+.contentWrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+section {
+    width:calc(80% - 10px);
+    height: 85vh;
+}
+aside{
+    width: calc(20% - 10px);
+    height: 85vh;
+}
