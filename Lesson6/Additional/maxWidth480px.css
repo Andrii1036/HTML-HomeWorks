@@ -1,0 +1,43 @@
+@media (max-width: 480px) {
+    .limitingBlock {
+        max-width: 460px;
+    }
+    header {
+        height: calc(27vh - 10px);
+        margin: 10px 0 0 0;
+    }
+    nav{
+        width: 100%;
+    }
+    ul{
+        flex-direction: column;
+    }
+    li{
+        margin-bottom: 5px;
+        margin-right: 0;
+    }
+    .banner{
+        height: calc(20vh - 10px);
+        margin-bottom: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+    .articles{
+        height: 43vh;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    article {
+        width:100%;
+        height:calc(100%/4 - 30px/4);
+        display: flex;
+        position: relative;
+    }
+    article p {
+        position: absolute;
+        transform: none;
+        top: auto;
+        left: auto;
+    }
+
+}
