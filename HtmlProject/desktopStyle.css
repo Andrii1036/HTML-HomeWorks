@@ -18,6 +18,23 @@ h1 {
     font-weight: 400;
     line-height: 84px;
 }
+h2{
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 70px;
+}
+h3{
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -0.75px;
+}
+/*------------стилізація параграфів----------------------------*/
+.paragraph{
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.657px;
+}
 
 /*---------------------стилізація кнопок---------------------------------------------*/
 .button {
@@ -28,7 +45,8 @@ h1 {
     font-size: 20px;
     font-weight: 700;
 }
-.button a{
+
+.button a {
     width: 100%;
     height: 100%;
     color: #FFF;
@@ -36,11 +54,12 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 /*--------------визначення обмежуючого блоку для контенту--------------*/
 .limitingBlock {
-    max-width: 1160px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 0 20px;
     height: 100%;
@@ -52,25 +71,22 @@ h1 {
     height: 100%;
     border: 1px solid #000;
     background: radial-gradient(50% 50% at 50% 50%, #353550 0%, rgba(25, 25, 27, 0.00) 100%);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
-/*-----------стилізація першого блоку(першого екрана)----------*/
-.firstScreenWrapper {
+/*-----------стилізація обгорток всіх блоків(екранів)----------*/
+.firstScreenWrapper, .secondScreenWrapper, .thirdScreenWrapper {
     height: 100vh;
     background-color: black;
     padding-top: 30px;
 }
 
+/*-----------стилізація першого блоку(першого екрана)----------*/
 header {
     height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-header>a{
-    text-decoration: none;
-    color: #FFF;;
 }
 
 header img {
@@ -119,7 +135,8 @@ header nav a {
     border: 1px solid #FFF;
     background: none;
 }
-.headerButton a{
+
+.headerButton a {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: -0.5px;
@@ -133,18 +150,13 @@ header nav a {
     justify-content: space-between;
 }
 
-.firstScreenWrapper section article > p {
-    color: rgba(255, 255, 255, 0.70);
-    font-size: 21px;
-    line-height: 39px;
-    letter-spacing: -0.657px;
-    margin-top: 24px;
-    margin-bottom: 50px;
-}
-
 .firstScreenTxt {
     display: flex;
     width: 47%;
+}
+.firstScreenTxt .paragraph{
+    margin-top: 24px;
+    margin-bottom: 50px;
 }
 
 .firstScreenImg {
@@ -156,3 +168,67 @@ header nav a {
     background-size: cover;
 }
 
+/*----------стилізація другого блоку(другого екрана)-------------------*/
+.secondScreenTxt {
+    height: 19vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-bottom: 50px;
+}
+.secondScreenWrapper h2{
+    width: 40%;
+}
+.secondScreenWrapper .paragraph{
+    width: 50%;
+}
+.secondScreenBG{
+    height:calc(75vh - 30px) ;
+    background-image: url("images/secondScreenBG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*-----------------стилізація третього блоку(третього екрана)-------------------*/
+.thirdScreenWrapper h2{
+    width: 50vw;
+    margin: 0 auto;
+    text-align: center;
+    height: 14vh;
+    padding-top: 50px;
+}
+.servicesVariants{
+    display: flex;
+    height: calc(86vh - 30px);
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+/*----------------стилізація карток третього блоку---------------*/
+.ServicesItem{
+    height: 210px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.ServicesItemLogo{
+    width: 69px;
+    height: 69px;
+    background-color:rgba(84, 84, 212, 0.10);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ServicesItemLogo img{
+    width: 32px;
+    height: 32px;
+}
+.ServicesItem p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: -0.5px;
+}
