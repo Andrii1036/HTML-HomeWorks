@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     color: #FFF;
     font-family: "Lato", sans-serif;
     font-style: normal;
@@ -11,11 +12,38 @@ body{
     line-height: normal;
 }
 
+/*----------------стилізація заголовків----------------------*/
+h1 {
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 84px;
+}
+
+/*---------------------стилізація кнопок---------------------------------------------*/
+.button {
+    width: 204px;
+    height: 58px;
+    border-radius: 4px;
+    background: #5454D4;
+    font-size: 20px;
+    font-weight: 700;
+}
+.button a{
+    width: 100%;
+    height: 100%;
+    color: #FFF;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*--------------визначення обмежуючого блоку для контенту--------------*/
 .limitingBlock {
     max-width: 1160px;
     margin: 0 auto;
     padding: 0 20px;
+    height: 100%;
 }
 
 /*--------------стилізація декоративного фону блоку обгортки, який при анімуванні буде моргати----------------*/
@@ -33,18 +61,25 @@ body{
     background-color: black;
     padding-top: 30px;
 }
-header{
-    height: 9.5vh;
+
+header {
+    height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-header img{
+header>a{
+    text-decoration: none;
+    color: #FFF;;
+}
+
+header img {
     width: 40px;
     height: 40px;
     margin-right: 8px;
 }
-.logo{
+
+.logo {
     display: flex;
     font-family: "Montserrat", sans-serif;
     font-size: 28px;
@@ -52,33 +87,72 @@ header img{
     font-weight: 700;
     line-height: 140%;
 }
-header nav{
+
+header nav {
     display: flex;
     height: 100%;
     align-items: center;
 }
-header nav ul{
+
+header nav ul {
     display: flex;
     list-style: none;
     width: 28vw;
     max-width: 330px;
     justify-content: space-between;
 }
-header nav a{
+
+header nav a {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.70);
     font-size: 18px;
 }
-.selectedNavItem{
+
+.selectedNavItem {
     color: #5454D4;
 }
-.headerButton{
+
+.headerButton {
     width: 157px;
     height: 44px;
     border-radius: 5px;
     border: 1px solid #FFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
+    background: none;
 }
+.headerButton a{
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+}
+
+.firstScreenWrapper section {
+    display: flex;
+    height: 69vh;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.firstScreenWrapper section article > p {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 21px;
+    line-height: 39px;
+    letter-spacing: -0.657px;
+    margin-top: 24px;
+    margin-bottom: 50px;
+}
+
+.firstScreenTxt {
+    display: flex;
+    width: 47%;
+}
+
+.firstScreenImg {
+    display: flex;
+    height: 680px;
+    width: 547px;
+    background-image: url("images/firstScreenBG656px713px.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
