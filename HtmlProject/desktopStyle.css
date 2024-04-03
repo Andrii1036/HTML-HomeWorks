@@ -235,11 +235,32 @@ header nav a {
 }
 
 /*----------------------стилізація четвертого блоку(четвертого екрана-----)*/
+.fourthScreenWrapper{
+    padding-top: 0;
+}
 .fourthScreenWrapper .limitingBlock{
-    display: flex;
-    align-items: center;
+    padding-top: 15vh;
 }
 .fourthScreenWrapper h2{
     font-size: 58px;
     font-weight: 800;
+}
+.projects{
+    height:29vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15vh;
+}
+.projectsItemWrapper{
+    width: 370px;
+    height: 301px;
+    border-radius: 14px;
+    background: #1E1E20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projectsItemWrapper img{
+    width: calc(100% - 48px);
+    height: calc(100% - 48px);
 }
