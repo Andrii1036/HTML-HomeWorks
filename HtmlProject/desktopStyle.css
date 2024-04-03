@@ -141,6 +141,7 @@ header nav a {
     font-size: 16px;
     font-weight: 400;
     letter-spacing: -0.5px;
+    cursor: pointer;
 }
 
 .firstScreenWrapper section {
@@ -234,7 +235,7 @@ header nav a {
     letter-spacing: -0.5px;
 }
 
-/*----------------------стилізація четвертого блоку(четвертого екрана-----)*/
+/*----------------------стилізація четвертого блоку(четвертого екрана)--------*/
 .fourthScreenWrapper{
     padding-top: 0;
 }
@@ -263,4 +264,34 @@ header nav a {
 .projectsItemWrapper img{
     width: calc(100% - 48px);
     height: calc(100% - 48px);
+}
+/*---------------стилізація блоку з контактами------------------- */
+footer{
+    height: 68vh;
+    background: black;
+}
+.contactUs{
+    height: 72%;
+    background: rgba(30, 30, 32, 0.50);
+}
+.contactUs .limitingBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer h2{
+    width: 57vw;
+}
+.bottom{
+    height: 28%;
+}
+.bottom .limitingBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottom .limitingBlock>p{
+    color: rgba(255, 255, 255, 0.70);
+    line-height: 38px;
+    letter-spacing: -0.5px;
 }
