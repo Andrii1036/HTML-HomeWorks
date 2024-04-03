@@ -75,7 +75,7 @@ h3{
 }
 
 /*-----------стилізація обгорток всіх блоків(екранів)----------*/
-.firstScreenWrapper, .secondScreenWrapper, .thirdScreenWrapper {
+.firstScreenWrapper, .secondScreenWrapper, .thirdScreenWrapper,.fourthScreenWrapper {
     height: 100vh;
     background-color: black;
     padding-top: 30px;
@@ -114,8 +114,9 @@ header nav ul {
     display: flex;
     list-style: none;
     width: 28vw;
-    max-width: 330px;
-    justify-content: space-between;
+    max-width: 400px;
+    justify-content: center;
+    column-gap: 40px;
 }
 
 header nav a {
@@ -231,4 +232,14 @@ header nav a {
     font-size: 20px;
     line-height: 28px;
     letter-spacing: -0.5px;
+}
+
+/*----------------------стилізація четвертого блоку(четвертого екрана-----)*/
+.fourthScreenWrapper .limitingBlock{
+    display: flex;
+    align-items: center;
+}
+.fourthScreenWrapper h2{
+    font-size: 58px;
+    font-weight: 800;
 }
